@@ -1,0 +1,474 @@
+.panel1 {
+    background-color: F9F9F9;
+    height: 873px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-bottom: 80px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.panel1img {
+    background-color: wheat;
+    width: 50%;
+}
+
+.panel1Content {
+    width: 50%;
+    padding: 63px 23px 0 0;
+}
+
+.panel1Content h1 {
+    font-size: 64px;
+    font-size: 700;
+    margin-top: 24px;
+    font-family: Helvetica;
+    line-height: 73.59px;
+}
+
+.panel1Content p {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 24px;
+
+}
+
+span {
+    color: #FF9654;
+}
+
+button {
+    width: 163px;
+    height: 54px;
+    background: none;
+    margin: 24px 7px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.learn {
+    border: 2px solid #FF9654;
+}
+
+.learn:hover {
+    border: none;
+    background-color: #FF9654;
+    cursor: pointer;
+}
+
+.hire {
+    border: none;
+    background-color: #FF9654;
+}
+
+.hire:hover {
+    border: 2px solid #FF9654;
+    background-color: white;
+    cursor: pointer;
+}
+
+.panel2 {
+    height: 946px;
+    background-color: rgba(255, 150, 84, 0.05);
+    padding-top: 27px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+.lineLeft {
+    border: 1px solid black;
+    width: 407px;
+    height: 0px;
+    margin-right: 80px;
+}
+
+.lineRight {
+    border: 1px solid black;
+    width: 407px;
+    height: 0px;
+    margin-left: 80px;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 48px;
+    gap: 83px;
+    height: 684.78px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.infopanel {
+    width: 382px;
+    height: 684.78px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0.1px 0 5px gray;
+    padding: 36px 21px;
+    text-align: center;
+}
+
+.midpanel {
+    box-shadow: 0 -5px 0#FF9654;
+}
+
+.infopanelpic {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.infopanel h5 {
+    padding-top: 7px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.infopanel p {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 59px;
+}
+
+.panel3 {
+    height: 603px;
+    background-color: #FFFAF6;
+    padding-top: 93px;
+    padding-bottom: 123px;
+}
+
+.panel3 h4 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.clientpanel {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    margin-top: 50px;
+    margin-left: 120px;
+    height: 300px;
+}
+
+.clientpanel::-webkit-scrollbar {
+    display: none;
+}
+
+.clientcell {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 0 14px;
+}
+
+.clientscroll {
+    height: 107px;
+    width: 107px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    right: 57px;
+    top: 96.5px;
+    background-color: white;
+    box-shadow: 0px 2px 5px grey;
+}
+
+.clientscroll:hover {
+    cursor: pointer;
+}
+
+.panel4 {
+    height: 3479px;
+    background-color: #F9F9F9;
+    padding-top: 61px;
+    padding-left: 105px;
+    padding-right: 105px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chooseus {
+    height: 646px;
+    display: flex;
+    flex-direction: row;
+}
+
+.chooseusimg {
+    height: 646px;
+    width: 520px;
+    background-color: gray;
+}
+
+.chooseuscontent {
+    margin-left: 70px;
+}
+
+.chooseuscontent h4 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.chooseuscontent ul {
+    margin-top: 93px;
+    margin-left: 0;
+    width: 478px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    list-style-position: outside;
+}
+
+.chooseuscontent li {
+    margin-left: 0;
+    margin-bottom: 94.5px;
+}
+
+.chooseus .hire {
+    position: relative;
+    top: 738px;
+    right: 537px;
+}
+
+.panel4 h4 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.servicesbox {
+    display: flex;
+    flex-direction: row;
+    width: 1311px;
+    margin-top: 68px;
+    gap: 43px;
+}
+
+.servicespanel {
+    width: 635px;
+    height: 1063.14px;
+    padding: 48px 49px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-bottom: 8px solid #FF9654;
+}
+
+.servicesimg {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    align-self: center;
+}
+
+.servicespanel h5 {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.servicespanel p {
+    margin-top: 56px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.viewservices {
+    border: none;
+    background-color: #FF9654;
+    justify-self: center;
+    align-self: center;
+    margin-top: 92px;
+    width: 170px;
+}
+
+.viewservices:hover {
+    border: 2px solid #FF9654;
+    background-color: white;
+    cursor: pointer;
+}
+
+.reviewspanel {
+    height: 410px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+}
+
+.reviewbox {
+    width: 636px;
+    height: 407px;
+    background-color: white;
+    padding: 33px 13px 0 39px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.profile {
+    width: 149px;
+}
+
+.profileimg {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: navy;
+}
+
+.profile h6 {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.profile p {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.quote {
+    margin-left: 7px;
+    width: 428px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+}
+
+.quote h1 {
+    font-family: Helvetica;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF9654;
+    width: 48px;
+    margin-top: 0;
+}
+
+.quote p {
+    margin-top: 43px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.quote span {
+    font-family: Helvetica;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    right: 230px;
+    top: 216px;
+}
+
+.quote figcaption {
+    font-family: Helvetica;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    right: 130px;
+    top: 130px;
+    color: #FF9654;
+}
+
+.panel4 h3 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 47px;
+}

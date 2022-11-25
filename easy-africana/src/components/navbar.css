@@ -1,0 +1,160 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar{
+    padding: 0.8rem 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .navbar .links{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .navbar .links li{
+    color: #000;
+    margin: 0 15px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .navbar .links li:hover {
+    color: rgb(251, 149, 95);
+  }
+  
+  .navbar-link::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgb(251, 149, 95);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .navbar-link:hover::after {
+    width: 50%;
+  }
+  
+  .navbar .toggle-icon{
+    display: none
+  }
+  
+  .navbar .menu-close {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  @media(max-width: 768px){
+    /* .App{
+      width: 100%;
+    } */
+    .navbar{
+      position: relative;
+      height: 80px;
+      transition: 0.5s all ease-in-out;
+    }
+  
+    .navbar.expanded{
+      height: 100vh;
+      background-color: #01061D;
+    }
+  
+    .navbar.expanded .links{
+      position: absolute;
+      top: 120px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 1;
+    }
+  
+    .navbar.expanded .links li{
+      margin: 15px 0;
+      font-size: 24px;
+    }
+  
+    .navbar .links li{
+      color: rgb(238, 234, 234);
+    }
+  
+    .navbar .logo{
+      position: absolute;
+      top: 23px;
+      left: 15px;
+      font-size: 1.6rem;
+    }
+  
+    .navbar .toggle-icon{
+      display: block;
+      position: absolute;
+      top: 28px;
+      right: 20px;
+      color: rgb(251, 149, 95);
+      border-radius: 5px;
+      border: 2px solid rgb(251, 149, 95);
+      padding: 2px 7px;
+    }
+  
+    .navbar .links{
+      position: absolute;
+      top: -300px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: all 0.5s ease-in-out;
+    }
+  
+    .navbar .links li{
+      margin: 15px 0;
+      font-size: 24px;
+    }
+    #btn {
+      top: 25rem;
+    }
+  }
+  
+  #btn {
+    background: rgb(251, 149, 95);
+    background-size: 100%;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 0.35s ease;
+  }
+  
+  
+  
+  @media (width: 1024px) {
+    .navbar {
+      padding: 0.8rem 1.5rem;
+    }
+  }
+  
+  @media (width: 1280px) {
+    .navbar {
+      padding: 0.8rem 1.5rem;
+    }
+  }
+  
+  

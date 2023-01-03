@@ -56,7 +56,6 @@ ul {
     display: flex;
     justify-content:space-between;
     margin-top: 4rem;
-    /* tracking-wide */
 }
 
 ul .first-column {
